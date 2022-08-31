@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+.mainWrapper {
+    position: relative;
+    height: 100vh;
+}
+
+.axes {
+    position: absolute;
+}
+
+.main-axes {
+    background-color: rgb(247, 185, 105);
+    top: 50%;
+    width: 100%;
+    transform: translateY(50%);
+}
+
+.cross-axes {
+    background-color: rgb(9, 211, 53);
+    right: 50%;
+    height: 100%;
+}
+
+.flexWrapper {
+    height: 100%;
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+
+.myBox1 {
+    background-color: aqua;
+
+}
+
+
+.myBox2 {
+    background-color: tomato;
+    
+}
+
+.myBox3 {
+    background-color: beige;
+}
+
+.myBox4 {
+    background-color: violet;
+}
+
+
+.wrapper {
+    display: block;
+    padding: 64px;
+    background-color: rgb(40, 69, 150);
+    color: white;
+}
+
+.first-list {
+
+}
+
+.list-item {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: "Sora";
+}
+ 
+.list-item:hover {
+    background-color: white;
+    color: #121314;
+    cursor: pointer;
+}
+
+.heading {
+
+}
