@@ -7,7 +7,7 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+    overflow: hidden;
 }
 
 .left-section {
@@ -15,7 +15,31 @@
     flex-basis: 50%;
 }
 
+
+
 .right-section {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(21, 18, 0, 0.626);
     flex-basis: 50%;
+}
+
+.content-section {
+    width: 100%;
+    max-width: 400px;
+}
+
+.dark-section {
+    background-color: black;
+    display: flex;
+    width: 200px;
+    margin-left: 32px;
+    margin-top: 32px;
+    overflow: visible;
+ }
+
+
+.content-section-wrapper {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
