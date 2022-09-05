@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.classwork__wrapper {
+    display: flex;
+    height: 100vh;
+
+}
+
+.classwork__section-left, .classwork__section-right {
+flex-basis: 50%;
+}
+
+.classwork__section-right {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.346), #0000007a), url("https://images.pexels.com/photos/12309550/pexels-photo-12309550.jpeg?cs=srgb&dl=pexels-yelena-odintsova-12309550.jpg&fm=jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
+
+.rightside-subsection {
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.heading {
+color: #FAFBFC;
+font-size: 36px;
+line-height: 36px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-bottom: 16px;
+text-align: right;
+}
+
+.subheading {
+text-align: right;
+color: #FAFBFC;
+font-size: 18px;
+line-height: 36px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.playbtn {
+    background-color: transparent;
+    border: none;
+    outline: none
+}
+
+.classwork__section-left {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.leftside-wrapper {
+    width: 360px;
+
+}
+
+.blackbox {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    background-color: black;
+    height: 32px;
+    width: 160px;
+}
+
+.loginbtn {
+    background-color: white;
+    border: 1px solid #D0D1D6;
+    width: 100%;
+    padding: 12px;
+border-radius: 8px;
+ margin-top: 30px;
+ cursor: pointer;
+}
