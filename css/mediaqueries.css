@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: red;
+    color: white;
+    height: 200px;
+}
+
+
+@media (max-width: 768px) {
+
+.wrapper {
+    background-color: gold;
+}
+
+}
+
